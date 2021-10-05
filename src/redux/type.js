@@ -1,0 +1,7 @@
+export const CHANGE_PAGE = "CHANGE_PAGE"
+export const CHOOSE_MSERVICE = "CHOOSE_MSERVICE"
+export const MAKE_ORDER = "MAKE_ORDER"
+export const SUBMIT_ORDER = "SUBMIT_ORDER"
+export const CHANGE_FIELD = "CHANGE_FIELD"
+export const REQUEST_SENDED = "REQUEST_SENDED"  
+export const SUBMIT_ORDER_ERR = "SUBMIT_ORDER_ERR" 

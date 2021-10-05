@@ -1,0 +1,36 @@
+.viewItem{
+	color: #3c3c3c;
+	.desc{
+		line-height: 20px;
+		margin-bottom: 20px;
+	}
+	.subList{
+		width: 300px;
+		margin: 0 auto;
+		list-style: none;
+		padding: 0;
+		li{
+			border: 1px solid #999;
+			font-size: 16px;
+			 line-height: 26px;
+			padding: 5px 10px;
+			display: block;
+			text-align: left;
+			margin: 0 0px 15px 0px;
+			cursor:pointer;
+			label{
+				display: block;
+				cursor:pointer;
+				
+				input{
+					margin-right: 10px;
+				}
+			}
+			&:hover{
+			background-color: #333;
+			color: #fff;
+		}
+		}
+	}
+
+}

@@ -1,0 +1,51 @@
+.banner{ 
+     
+    width: 100%;
+    background-image: url('../assets/images/back2.jpg');
+    background-size:cover;
+    background-position:center;
+    
+    position: relative;
+    display: block;
+    text-align: center; 
+
+    .services_booking_block{
+		
+        padding: 60px 55px;
+        width: 500px;
+        background-color: #fff;
+        min-height: 200px;
+        position: relative;
+        margin: 0px auto 0 auto;
+		border: 1px solid #999;
+		top: 20px;
+    }
+	button{
+		font-size: 14px;
+		margin: 0 auto 0 auto;
+		background-color: #fff;
+		padding: 10px 20px;
+		border: 1px solid #000;
+		border-radius: 0;
+		cursor: pointer;
+		outline: 0px solid #999;
+		outline-radius: 0 !important;
+		&:focus{
+			outline: 0px solid #999;
+			outline-radius: 0 !important;
+		}
+		&:hover{
+			background-color: #333;
+			color: #fff;
+		}
+	}
+	.backNavigation{
+		text-align: left;
+		cursor: pointer;
+		color: #777;
+		margin-bottom: 20px;
+		&:hover{
+			color: #000;
+		}
+	}
+}
